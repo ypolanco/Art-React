@@ -10,7 +10,7 @@ export default function Card({ product, input }) {
   }, [input]);
 
   // console.log("FIND ME HERE MANNN",input);
-  // console.log("FIND ME HERE SIRRRR", products);
+
 
   let searchResults = product.filter((name) => {
     return name.name.toLowerCase().includes(products.toLowerCase());
