@@ -12,7 +12,7 @@ function App() {
   const [input, inputSearch] = useState("");
   const [search, searchProduct] = useState("");
   // console.log("WAHAAA",products);
-  console.log(search);
+  console.log("Search",input);
 
   const updateInput = (e) => {
     e.preventDefault();
@@ -53,7 +53,7 @@ function App() {
         </Route>
       <div className="cards">
         <Route exact path="/">
-          <Card product={products} input={search} />
+          <Card product={products} input={input} />
         </Route>
       </div>
       <div className="product-page">

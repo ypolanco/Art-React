@@ -9,7 +9,7 @@ export default function Card({ product, input }) {
     updateProduct(input);
   }, [input]);
 
-  // console.log("FIND ME HERE MANNN",input);
+  console.log("FIND ME HERE MANNN",input);
 
 
   let searchResults = product.filter((name) => {
